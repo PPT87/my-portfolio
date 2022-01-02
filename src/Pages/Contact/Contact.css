@@ -1,4 +1,3 @@
-
 .contact-container{
   background-color: aliceblue;
   font-family: 'Quicksand', sans-serif;
@@ -40,7 +39,6 @@
 }
 
 .contact-icons svg{
-  color: black;
   transition: all ease-in-out 0.25s;
 }
 
@@ -83,6 +81,12 @@ form input{
   align-items: center;
   flex-direction: column;
   margin: auto;
+}
+
+.resume-icon{
+  color: black;
+  font-size: 40px;
+  padding-top: 2px;
 }
 
 textarea{

@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-// import { GrDocumentText } from 'react-icons/gr'
+import { IoDocumentTextSharp } from 'react-icons/io5'
+import resume from '../../Assets/Peter-Tran-Resume.pdf'
 import '../Contact/Contact.css'
 
 
@@ -25,7 +26,7 @@ const ContactForm = () => {
       <div className='contact-icons'>
         <button onClick={gitHub}><AiFillGithub /></button>
         <button onClick={linkedIn}><AiFillLinkedin /></button>
-        {/* <button onClick=''><GrDocumentText /></button> */}
+        <a href={resume} download ><IoDocumentTextSharp className='resume-icon'/></a>
       </div>
     </div>
     </>
