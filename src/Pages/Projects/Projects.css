@@ -67,7 +67,25 @@ text-align: center;
   display: flex;
   justify-content: space-evenly;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.project-links button{
+  background: #2788ff;
+  border: none;
+  border-radius: 7px;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  transition: all 0.25s;
+}
+
+.project-links button:hover{
+  background-color: rgb(255, 56, 56);
+  color: aliceblue;
+  transform: scale(1.02);
 }
 
 .projects-wrapper{
