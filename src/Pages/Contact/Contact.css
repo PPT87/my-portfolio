@@ -1,10 +1,8 @@
 .contact-container{
   background-color: aliceblue;
   font-family: 'Quicksand', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
-  overflow:auto;
-  min-width: 100%;
 }
 
 .contact-container h1{
@@ -19,7 +17,7 @@
   color: red;
   font-size: 20px;
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -54,9 +52,9 @@
   box-shadow: 5px 5px 5px rgb(80, 79, 79);
   display: flex;
   flex-direction: column;
-  height: 500px;
+  min-height: 500px;
   margin: auto;
-  width: 700px;
+  width: fit-content;
 }
 
 .form-container p{
@@ -70,11 +68,12 @@ form{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 400px;
+  width: 60%;
 }
 
 form input{
-  height: 25px;
+  min-height: 25px;
+  max-height: auto;
 }
 
 .greeting-msg{

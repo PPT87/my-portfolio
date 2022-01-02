@@ -7,10 +7,9 @@
 .projects-container{
   background-color: rgb(230, 230, 230);
   font-family: 'Quicksand', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
-  overflow:auto;
-  min-width: 100%;
+  width: auto;
 }
 
 .project-msg h1{
@@ -34,6 +33,7 @@
   display: flex;
   flex-direction: column;
   height: auto;
+  margin-bottom: 5px;
   padding: 0 0 10px 0;
   width: 250px;
 }
@@ -90,6 +90,7 @@ text-align: center;
 
 .projects-wrapper{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 5%;
 }

@@ -1,6 +1,7 @@
 .bottom-container{
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 28px;
   justify-content: center;
   padding-top: 30px;
   text-align: center;
@@ -10,6 +11,7 @@
   border: 1px solid black;
   border-radius: 10px;
   height: 150px;
+  margin-bottom: 5px;
   width: 180px;
 }
 
@@ -111,10 +113,8 @@
   background-color: aliceblue;
   font-family: 'Quicksand', sans-serif;
   flex-wrap: wrap;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
-  overflow: auto;
-  min-width: 100%;
 }
 
 .skills-container h1{
@@ -131,9 +131,10 @@
 
 .top-container{
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 28px;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 5%;
   text-align: center;
 }
 
