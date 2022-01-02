@@ -1,0 +1,111 @@
+
+.contact-container{
+  background-color: aliceblue;
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  margin: auto;
+  overflow:auto;
+  min-width: 100%;
+}
+
+.contact-container h1{
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.contact-container p{
+  color: red;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.contact-icons{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.contact-icons button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 45px;
+  outline: none;
+  padding: 0;
+}
+
+.contact-icons svg{
+  color: black;
+  transition: all ease-in-out 0.25s;
+}
+
+.contact-icons svg:hover{
+  color: rgb(255, 56, 56);
+  transform: scale(1.1);
+}
+
+.form-container{
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(80, 79, 79);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  margin: auto;
+  width: 700px;
+}
+
+.form-container p{
+  color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 95%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+form input{
+  height: 25px;
+}
+
+.greeting-msg{
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+textarea{
+  height: 150px;
+}
+
+[type="submit"]{
+  background: #2788ff;
+  border: none;
+  border-radius: 7px;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+[type="submit"]:hover{
+  background-color: rgb(255, 56, 56);
+  color: aliceblue;
+  transform: scale(1.02);
+}
+

@@ -1,0 +1,31 @@
+.scrollTop{
+  bottom: 10px;
+  right: 20px;
+  position: fixed;
+  transform: rotate(-90deg);
+}
+
+.scrollTop button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  outline: none;
+  padding: 0;
+  
+}
+.scrollTop button:hover{
+  color: rgb(255, 56, 56);
+  
+}
+
+.scrollTop svg{
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: all ease-in-out 0.20s;
+}
+
+.scrollTop svg:hover{
+  border: 1px solid rgb(255, 56, 56);
+  transform: scale(1.1);
+}

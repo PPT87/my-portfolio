@@ -1,0 +1,92 @@
+.closeBtn{
+  color: aliceblue;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 15px;
+  transition: all ease-in-out 0.25s;  
+}
+
+.closeBtn:hover{
+  color: red;
+  transform: scale(1.1);
+}
+
+.close-wrapper{
+  background-color: black;
+  border-top-right-radius: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.link-wrapper{
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.link-wrapper svg{
+  align-items: flex-start;
+  font-size: 40px;
+  padding-right: 40px;
+  transition: all ease-in-out 0.20s;  
+}
+
+.link-wrapper svg:hover{
+  transform: scale(1.1);
+}
+
+.nav-wrapper{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  left: -100%;
+  min-height: 50vh;
+  position: fixed;
+  transition: ease-in-out 0.5s;
+  width: 265px;
+  z-index: 1;
+}
+
+.nav-wrapper.active{
+  left: 0;
+}
+
+.openBtn{
+  color: black;
+  cursor: pointer;
+  font-size: 40px;
+  position: fixed;
+  padding-top: 15px;
+  padding-left: 15px;
+  transition: all ease-in-out 0.2s;  
+}
+
+.openBtn:hover{
+  color: rgb(0, 255, 0);
+  transform: scale(1.1);
+}
+
+.open-wrapper{
+  display: flex;
+  position: absolute;
+}
+
+ul li a{
+  color: aliceblue;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  padding: 10px 15px;
+  transition: all ease-in-out 0.20s;  
+}
+
+ul li a:hover,
+ul li a.active{
+  background-color: aliceblue;
+  color: black;
+}

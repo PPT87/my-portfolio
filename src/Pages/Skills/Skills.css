@@ -1,0 +1,146 @@
+.bottom-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.box-icon{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 150px;
+  width: 180px;
+}
+
+.box-icon p{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.box-icon svg{
+  font-size: 70px;
+  padding-top: 15px;
+}
+
+.css{
+  transition: all ease-in-out 0.3s;
+}
+
+.css:hover{
+  color: rgb(38, 77, 228);
+}
+
+.django{
+  transition: all ease-in-out 0.3s;
+}
+
+.django:hover{
+  color: rgb(9, 46, 32);
+}
+
+.greeting-msg{
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.github{
+  transition: all ease-in-out 0.3s;
+}
+
+.github:hover{
+  color: rgb(23, 21, 21);
+}
+
+.html{
+  transition: all ease-in-out 0.3s;
+}
+
+.html:hover{
+  color: rgb(228, 77, 38);
+}
+
+.javascript{
+  transition: all ease-in-out 0.3s;
+}
+
+.javascript:hover{
+  color: rgb(240, 219, 79);
+}
+
+.mongodb{
+  transition: all ease-in-out 0.3s;
+}
+
+.mongodb:hover{
+  color: rgb(4, 144, 36);
+}
+
+.node{
+  transition: all ease-in-out 0.3s;
+}
+
+.node:hover{
+  color: rgb(60, 135, 58);
+}
+
+.tech{
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.postgres{
+  transition: all ease-in-out 0.3s;
+}
+
+.postgres:hover{
+  color: rgb(0, 100, 165);
+}
+
+.react{
+  transition: all ease-in-out 0.3s;
+}
+
+.react:hover{
+  color: rgb(4, 216, 249);
+}
+
+.skills-container{
+  background-color: aliceblue;
+  font-family: 'Quicksand', sans-serif;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin: auto;
+  overflow: auto;
+  min-width: 100%;
+}
+
+.skills-container h1{
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.tech{
+  color: red;
+}
+
+.top-container{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.vscode{
+  transition: all ease-in-out 0.3s;
+}
+
+.vscode:hover{
+  color: rgb(0, 120, 215);
+}
