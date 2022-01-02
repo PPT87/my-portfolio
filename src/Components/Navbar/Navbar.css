@@ -56,12 +56,14 @@
 }
 
 .openBtn{
+  border-right: 1px solid white;
+  border-radius: 50%;
+  border-bottom: 1px solid white;
   color: black;
   cursor: pointer;
   font-size: 40px;
   position: fixed;
-  padding-top: 15px;
-  padding-left: 15px;
+  padding: 6px 5px 5px 5px;
   transition: all ease-in-out 0.2s;  
 }
 
