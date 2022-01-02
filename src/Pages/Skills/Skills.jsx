@@ -2,7 +2,7 @@ import React from 'react'
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai'
 import { DiCss3, DiDjango } from 'react-icons/di'
 import { FaNodeJs, FaPython } from 'react-icons/fa'
-import { SiJavascript, SiMongodb, SiReact, SiPostgresql, SiExpress} from 'react-icons/si'
+import { SiJavascript, SiMongodb, SiReact, SiPostgresql, SiExpress, SiVisualstudiocode} from 'react-icons/si'
 import '../Skills/Skills.css'
 
 const Skills = () => {
@@ -63,6 +63,10 @@ const Skills = () => {
                   <AiFillGithub className='github'/>
                   <p>GitHub</p>
                 </div>
+                {/* <div className='box-icon'>
+                  <SiVisualstudiocode className='vscode'/>
+                  <p>VS Code</p>
+                </div> */}
               </div>
             </div>
           </div>
