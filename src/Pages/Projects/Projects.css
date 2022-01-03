@@ -28,7 +28,7 @@
 }
 
 .project-card{
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
