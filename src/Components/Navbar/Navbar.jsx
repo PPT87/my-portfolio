@@ -23,12 +23,12 @@ const Navbar = ({ showNav, setShowNav }) => {
         <BsDoorClosed className='closeBtn' onClick={() => setShowNav(!showNav)} />
         </div>
         <ul className='link-wrapper'>
-          <li><Link to='home' smooth={true} ><BiHomeAlt />Home</Link></li>
-          <li><Link to='about' smooth={true} ><CgProfile />About Me</Link></li>
-          <li><Link to='skills' smooth={true} ><GiSkills />Skills</Link></li>
-          <li><Link to='projects' smooth={true} ><AiOutlineFileDone />Projects</Link></li>
-          <li><a href={resume} download ><IoDocumentTextSharp />Resume</a></li>
-          <li><Link to='contact' smooth={true} ><RiContactsBookLine />Contact</Link></li>
+          <li><Link to='home' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><BiHomeAlt />Home</Link></li>
+          <li><Link to='about' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><CgProfile />About Me</Link></li>
+          <li><Link to='skills' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><GiSkills />Skills</Link></li>
+          <li><Link to='projects' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><AiOutlineFileDone />Projects</Link></li>
+          <li><a href={resume} download onClick={()=> showNav? setShowNav(!showNav) : false}><IoDocumentTextSharp />Resume</a></li>
+          <li><Link to='contact' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><RiContactsBookLine />Contact</Link></li>
         </ul>
     </nav>
     </>
