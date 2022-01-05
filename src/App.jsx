@@ -12,12 +12,13 @@ const  App = () => {
   const [showNav, setShowNav] = useState(false)
   const [showArrow, setShowArrow] = useState(false) 
 
+  const handleNavCollapse = () => showNav? setShowNav(!showNav) : false
 
   return (
     <>
-      <Navbar showNav={showNav} setShowNav={setShowNav}/>
+      <Navbar showNav={showNav} setShowNav={setShowNav} handleNavCollapse={handleNavCollapse}/>
 
-      <div onClick={()=> showNav? setShowNav(!showNav) : null}>
+      <div onClick={handleNavCollapse}>
 
         <section id='home'>
           <Home />

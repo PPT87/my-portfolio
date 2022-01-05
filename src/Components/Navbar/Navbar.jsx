@@ -11,7 +11,7 @@ import resume from '../../Assets/Peter-Tran-Resume.pdf'
 import '../Navbar/Navbar.css'
 
 
-const Navbar = ({ showNav, setShowNav }) => {
+const Navbar = ({ showNav, setShowNav, handleNavCollapse }) => {
 
   return(
     <>
@@ -23,12 +23,12 @@ const Navbar = ({ showNav, setShowNav }) => {
         <BsDoorClosed className='closeBtn' onClick={() => setShowNav(!showNav)} />
         </div>
         <ul className='link-wrapper'>
-          <li><Link to='home' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><BiHomeAlt />Home</Link></li>
-          <li><Link to='about' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><CgProfile />About Me</Link></li>
-          <li><Link to='skills' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><GiSkills />Skills</Link></li>
-          <li><Link to='projects' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><AiOutlineFileDone />Projects</Link></li>
-          <li><a href={resume} download onClick={()=> showNav? setShowNav(!showNav) : false}><IoDocumentTextSharp />Resume</a></li>
-          <li><Link to='contact' smooth={true} onClick={()=> showNav? setShowNav(!showNav) : false}><RiContactsBookLine />Contact</Link></li>
+          <li><Link to='home' smooth={true} onClick={handleNavCollapse}><BiHomeAlt />Home</Link></li>
+          <li><Link to='about' smooth={true} onClick={handleNavCollapse}><CgProfile />About Me</Link></li>
+          <li><Link to='skills' smooth={true} onClick={handleNavCollapse}><GiSkills />Skills</Link></li>
+          <li><Link to='projects' smooth={true} onClick={handleNavCollapse}><AiOutlineFileDone />Projects</Link></li>
+          <li><a href={resume} download onClick={handleNavCollapse}><IoDocumentTextSharp />Resume</a></li>
+          <li><Link to='contact' smooth={true} onClick={handleNavCollapse}><RiContactsBookLine />Contact</Link></li>
         </ul>
     </nav>
     </>
