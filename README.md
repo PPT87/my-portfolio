@@ -1,6 +1,6 @@
 # Welcome to my Portfolio!
 <p align='center'>
-<img src="../../projects/my-portfolio/src/Assets/ProfileImg.png" width='200'/>
+<img src="../my-portfolio/src/Assets/ProfileImg.png" width='200'/>
 </p>
 
 <h2 align='center'>
