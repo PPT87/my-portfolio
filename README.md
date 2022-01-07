@@ -1,13 +1,18 @@
 # Welcome to my Portfolio!
+<p align='center'>
 <img src="../../projects/my-portfolio/src/Assets/ProfileImg.png" width='200'/>
+</p>
 
-## Software Engineer | Mechanical Engineer
+<h2 align='center'>
+  Software Engineer | Mechanical Engineer
+</h2>
+
 <br>
 
 ## Background:
-Hey everyone! My Name is Peter Tran and i'm a career transitioner from Mechanical Engineering to Software Engineering. I have been working professionally for 8+ as a New Model Project Leader/Supervisor in the automotive industry prior to making my transition. I can surely tell you that i've learned a lot during that time and I know that this switch won't be any different. 
+Hey everyone! My Name is Peter Tran and i'm a career "transitioner" from Mechanical Engineering to Software Engineering. I have been working professionally for 8+ as a New Model Project Leader/Supervisor in the automotive industry prior to making my transition. I can surely tell you that i've learned a lot during that time and I know that this switch won't be any different. 
 
-  - Check out my portfolio [here!](https://jotdowntodoapp.herokuapp.com/https://petertran-portfolio.netlify.app/)
+-  Check out my portfolio [HERE!](https://petertran-portfolio.netlify.app/)
 <br>
 
 ## What I Used:
