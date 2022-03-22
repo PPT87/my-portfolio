@@ -7,7 +7,7 @@ import { GiSkills } from 'react-icons/gi'
 import { RiContactsBookLine } from 'react-icons/ri'
 import { AiOutlineFileDone } from 'react-icons/ai'
 import { IoDocumentTextSharp } from 'react-icons/io5'
-import resume from '../../Assets/Peter-Tran-Resume.pdf'
+import resume from '../../Assets/Peter_Tran_Resume.pdf'
 import '../Navbar/Navbar.css'
 
 
