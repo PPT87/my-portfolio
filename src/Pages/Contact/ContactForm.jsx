@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { IoDocumentTextSharp } from 'react-icons/io5'
-import resume from '../../Assets/Peter-Tran-Resume.pdf'
+import resume from '../../Assets/Peter_Tran_Resume.pdf'
 import emailjs from 'emailjs-com'
 import '../Contact/Contact.css'
 
